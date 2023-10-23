@@ -1,4 +1,4 @@
-function App() {
+function Header() {
   return (
     <div>
       <header>
@@ -9,7 +9,13 @@ function App() {
           going to build!
         </p>
       </header>
+    </div>
+  );
+}
 
+function App() {
+  return (
+    <div>
       <main>
         <h2>Time to get started!</h2>
       </main>
